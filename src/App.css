@@ -4,3 +4,13 @@
   padding: 0px;
   font-family: "Montserrat", sans-serif;
 }
+
+.body{
+  /* min-height: 100% !important; */
+  background-image: url("./img/plane-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 25%;
+}
+
