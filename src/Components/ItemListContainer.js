@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import "./ItemContainerList.css";
-// import "bootstrap/dist/css/bootstrap.css";
+import {ItemCount} from "./ItemCount";
 
 export {ItemListContainer}
 
@@ -11,6 +11,7 @@ class ItemListContainer extends Component {
         return(
             <div>
               <b>  <p class="greeting">{greeting} </p> </b>
+              <ItemCount />
             </div>
         );
     }
