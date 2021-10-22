@@ -2,8 +2,8 @@
 import React, {Component} from "react";
 import { MenuItems } from "./MenuItems"
 import {Button} from "../Button"
-import "./NavBar.css";
-import { CartWidget } from "../CartWidget";
+import "../../styles/NavBar.css"
+import { CartWidget } from "../../containers/CartWidget"
 export {NavBar};
 
 // alert("Funciona");

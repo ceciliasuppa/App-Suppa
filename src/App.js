@@ -1,13 +1,10 @@
 import './App.css';
-import "./Components/NavBar/NavBar.css";
-import  {NavBar} from "./Components/NavBar/NavBar";
-import {Footer} from "./Components/Footer.js";
-import {ItemListContainer} from "./Components/ItemListContainer.js";
-// import {ItemCount} from "./Components/ItemCount.js"
-
+import "./Components/styles/NavBar.css";
+import  {NavBar} from "./Components/utilities/NavBar/NavBar";
+import {Footer} from "./Components/utilities/Footer.js";
+import {ItemListContainer} from "./Components/containers/ItemListContainer.js";
 
 function App() {
-
   return (
     <><div className="App">
       <NavBar />
